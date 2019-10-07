@@ -1,0 +1,182 @@
+= The Trans-Mississippi West =
+
+=== National Developments 1865-1877 ===
+	* 1865 - The Civil War ends 
+	   * Southern Confederacy is defeated, slavery ends, and the Union is preserved
+	   * Former slaves do NOT receive permanent civil rights
+	* 1865-1877
+	   * Reconstruction
+	   * South preserves White Supremacy at the cost of 80 years of Southern
+		 economic underdevelopment (the “Jim Crow Era” after the 1890s)
+	   * End of first half of US History
+	* 1862-1863 - Congress and President Lincoln implement legislation to aid
+	  in the development of the “Trans-Mississippi West”
+	* 1863-1869 - The first transcontinental railroad (Central U.S.), followed
+	  by Northern and Southern TCRRs (finished 1883)
+	* 1873-1877 - A depression briefly slows the American economy
+
+=== Reconstruction ===
+	* Period immediately following the American Civil War
+	* A failed attempt to provide permanent political rights for freed slaves
+	* Defeated by a combination of
+		* Protracted violent resistance of Southerners (“the Klan”)
+		* Gradual waning of Northern states’ commitment to ensure equal
+		  political rights for the “freedmen”
+	* Reconstruction produces three Constitutional Amendments
+		* 13th , 14th , 15th Amendments - not enforced by Federal Government
+		* Each of these were *neutralized* during the “Jim Crow Era” from the
+		  1890s, preserving White Supremacy in the South until 1960's
+
+=== The Three R's of 1865-1877 ===
+	* Restoration
+		* Lincoln’s and later Johnson’s “soft” approach, abandoned for...
+		* Lincoln chooses Johnson to seduce southerners
+	* Johnson regrets the 13th amendment
+	* Reconstruction (does *not* occur)
+		* The “Radical Republican” approach triggered after 1867 by the
+		  Southern “black codes” and President Johnson’s erratic behavior
+		* Creates the “Reconstruction Amendments” to the Constitution, which
+		  are neutralized by the Supreme Court but are later rehabilitated by
+		  the 1964-5 Civil Rights and Voting Rights Acts
+	* Southern states were not admitted into congress until they rejoined union
+		* States could not rejoin the union unless they radified amendments
+		* Some scholars believe those amendments are technically invalid
+	* Redemption (*does* occur)
+		* “Redeemer” governments take charge after the Compromise of 1877 to
+		  defend Southern home rule and White Supremacy
+		* Freed slaves are often charged with vagrancy and forced to work to pay fine
+		* Most southerners are deeply religious, viewed loss of civil war as God's will
+		* In order to be redeemed, you must fall
+
+=== Sharecropping: ===
+	* Describes a relationship between an employer and a leasee
+
+=== Free vs Unfree Labor ===
+	* In Free labor: the worker is
+		* Legally entitled to the “fruits of his labor”
+		* Working inside a form of contract also binding his employer
+		* Able to relocate geographically or return home
+	* A worker is unfree when any the above conditions is absent, and the
+	  worker no longer possesses agency
+	* The history of the American South from 1865 to the mid 1960s is
+	  fundamentally the history of attempts to retain African-Americans in
+	  various forms of unfree labor
+
+=== Definitions of Categories of Rights ===
+	* Political Rights (a very explicit category)
+		* A “vertical axis:” individual rights vis-à-vis various levels of gov’t
+		* Secured by law, usually in a constitution
+		* Examples: First Amendment rights, the right to vote, etc.
+	* Social Rights (a much fuzzier category)
+		* A “horizontal axis:” individual rights vis-à-vis other citizens
+		* Not secured by law; protected by custom and community norms
+	* Civil Rights (to make explicit that which had been fuzzy)
+		* Non-political social rights so important they must be secured by law
+		* 14th Amendment intended to grant limited civil rights to freedmen
+		* Disputes over conflicting civil rights must be adjudicated in the courts
+
+=== Amendment XIII of 1865 ===
+	* Section 1
+	   * “Neither slavery nor involuntary servitude, except as punishment for
+		 crime… shall exist… within the United States”
+	* Section 2
+		* “Congress shall have power to enforce this article by appropriate legislation”
+	* 1865-6 - Several Southern states pass “Black Codes” to circumvent,
+	  triggering Radical Reconstruction
+	* Later circumvented by the “convict lease system,” widespread in the South
+	  during “Jim Crow” from the 1890s to the 1930s
+	* Not effective because unfree labor still exists in the form of chain gangs
+
+=== Amendment XIV of 1868 ===
+	* Section 1. All persons born or naturalized in the United States, and subject
+	* to the jurisdiction thereof, are citizens of the United States and of the
+	* state in which they reside. No State shall make or enforce any law which
+	* shall abridge the privileges or immunities of citizens of the United States;
+	* nor shall any State deprive any person of life, liberty, or property without
+	* due process of law; nor deny to any person within its jurisdiction the equal
+	* protection of the laws...
+
+==== Amendment XV of 1870 ====
+	* Section 1
+		* “The right of citizens of the United States to vote shall not be denied or
+		* abridged by the United States or any State on account of race, color, or
+		* previous condition of servitude.” [italics added]
+	* Section 2
+		* “Congress shall have power to enforce this article by appropriate legislation”
+	* During “Jim Crow” Southern states circumvent this amendment through...
+		* Literacy tests
+		* The poll tax
+		* "Grandfather clause"
+	* Voting rights in “deep South” states not fully restored to
+	  African-Americans until Voting Rights Act of 1965
+
+== Overview Post-1865 Trans-Mississippi Expansion ==
+	* American West is sparsely populated
+	* Importance of the transcontinental railroads
+		* Impetus for an expanded iron and steel industry (many “spinoffs”)
+		* Railroads require many resources - akin to today’s SpaceX
+			* Railroad bonds
+			* Army engineers map broad railway channels
+			* Fed only requires RR companies to purchase every other sq mile
+		* An “integrated, national mass market” for mfg goods
+		* Nation market is prerequisite for an international one
+		* Factories can sell far and wide
+	* First the railroads are built, then the farms and towns emerge
+	* Western homesteading and the “20-inch rainfall line”
+		* The Homestead Act of 1862
+			* Applies to individuals, not (railroad) companies
+			* Fed gives land to citizens free of charge
+			* Before Act, land cost ~$1/acre
+			* Not explicitly veteran program, but understood as one
+			* Was not gendered - women could purchase, but rarely did
+			* Now called BLM land
+		* Homesteading, 1865-1885, higher rainfall, milder winters
+		* Homesteading, 1885-1900, lower rainfall, severe winters
+		* Low agricultural commodity prices and the cycle of debt
+		* Average of 20 inches of rainfall west of rainfall line
+		* Average of < 20 inches of rainfall east of line
+		* ~80% of homesteaders return home
+	* Role of cattle ranching and mining in Western development
+		* Cattle drive - herd of cattle moved north from Texas to Chicago
+		* Before civil war, most protein came from pork and chicken
+		* Typical use of cows before civil war
+			* One female cow for milk
+			* One steer (castrated bull) to pull the plow
+		* During Civil War, beef came into the forefront of the American mind
+			* Rations for Union soldiers sometimes cut-off by the South
+			* This forced Union soldiers to occasionally butcher cattle
+		* Mining
+			* Two types of metal
+				* Precious
+				* Monetary
+				* Gold and silver
+				* Money secured by the value of the metal
+				* Risk of hyperinflation - overabundance of currency
+			* Non-precious
+				* Industrial
+				* Electrical infrastructure increases demand for copper
+
+=== Development of the Pacific Slope to 1890 ===
+	* By 1890 three centers of urbanization had emerged along the Pacific Slope:
+		1. Northern California: San Francisco-Sacramento-San Joaquin Valley
+		2. Willamette Valley-Seattle in Oregon and Washington
+		3. Southern California
+	* The West Coast was ethnically very diverse, but unhappily, with massive
+	  expropriation of Mexican land grants and fierce anti-Chinese agitation
+	  from labor unions resulting in the Chinese Exclusion Act of 1882.
+	* Agriculturally, California began to shift from wheat to fruit production
+	  after 1890 .
+
+=== 1877 - A Snapshot ===
+	* The U.S. is poised to become a mature industrial society, the second
+	  after Great Britain. This will require the following
+		* New concentrations of capital, to invest in expanded factory plant
+		* New manufacturing technologies to exploit economies of scale
+		* New sources of semi-skilled factory labor
+		* Britain invests surplus capital, which pays off later in WWII
+	* The U.S. is about to receive its second great influx of foreign
+	  immigration, this time from Southern and Eastern Europe
+	* The U.S. is about to experience its second great pulsation of
+	  urbanization in the Northeast, Ohio Valley, and Great Lakes
+	* The U.S. is about to experience accelerated income inequality
+	* (The U.S. will not become a “world power” for 40 more years)

@@ -1,0 +1,3 @@
+= HIST1700-002 =
+	* [[mailto:john.reed@utah.edu|Professor John Reed]]
+	* [[mailto:Cindy.Solomon.klebba@utah.edu|Ms Cindy Solomon-Klebba]]
