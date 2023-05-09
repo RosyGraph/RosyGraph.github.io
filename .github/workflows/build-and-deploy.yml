@@ -3,6 +3,8 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+    description: "Build and deploy to GitHub pages"
 
 jobs:
   build:
