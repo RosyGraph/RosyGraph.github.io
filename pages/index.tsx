@@ -72,27 +72,29 @@ export default function Home() {
                 <ListItemText
                   primary="Software Engineer, Velvet Financial Services, 2021 — Present"
                   secondary={
-                    <ul>
-                      <li>
-                        Developed the initial version of the web applications as
-                        part of a small team of engineers, resulting in a base
-                        of over 500 active users
-                      </li>
-                      <li>
-                        Led the development of integrations with third-party
-                        services to facilitate on-platform KYB and investment
-                        processes
-                      </li>
-                      <li>
-                        Trained new employees on the company's React and Django
-                        development stack
-                      </li>
-                      <li>
-                        Currently involved in creating solutions to private
-                        finance issues by utilizing novel machine learning
-                        methods in Python
-                      </li>
-                    </ul>
+                    <Typography variant="body2">
+                      <ul>
+                        <li>
+                          Developed the initial version of the web applications
+                          as part of a small team of engineers, resulting in a
+                          base of over 500 active users
+                        </li>
+                        <li>
+                          Led the development of integrations with third-party
+                          services to facilitate on-platform KYB and investment
+                          processes
+                        </li>
+                        <li>
+                          Trained new employees on the company's React and
+                          Django development stack
+                        </li>
+                        <li>
+                          Currently involved in creating solutions to private
+                          finance issues by utilizing novel machine learning
+                          methods in Python
+                        </li>
+                      </ul>
+                    </Typography>
                   }
                 />
               </ListItem>
@@ -105,22 +107,24 @@ export default function Home() {
                 <ListItemText
                   primary="B.S. Data Science, University of Utah, 2019 — Present"
                   secondary={
-                    <ul>
-                      <li>Expected graduation: December 2023</li>
-                      <li>Relevant coursework: </li>
+                    <Typography variant="body2">
                       <ul>
-                        <li>Machine Learning</li>
-                        <li>Artificial Intelligence</li>
-                        <li>Data Mining</li>
-                        <li>Visualization for Data Science</li>
-                        <li>Database Systems</li>
-                        <li>Software Development</li>
-                        <li>Probability Theory</li>
-                        <li>Applied Statistics</li>
-                        <li>Linear Algebra</li>
-                        <li>Calculus</li>
+                        <li>Expected graduation: December 2023</li>
+                        <li>Relevant coursework: </li>
+                        <ul>
+                          <li>Machine Learning</li>
+                          <li>Artificial Intelligence</li>
+                          <li>Data Mining</li>
+                          <li>Visualization for Data Science</li>
+                          <li>Database Systems</li>
+                          <li>Software Development</li>
+                          <li>Probability Theory</li>
+                          <li>Applied Statistics</li>
+                          <li>Linear Algebra</li>
+                          <li>Calculus</li>
+                        </ul>
                       </ul>
-                    </ul>
+                    </Typography>
                   }
                 />
               </ListItem>
@@ -144,16 +148,18 @@ export default function Home() {
                   <ListItemText
                     primary="Programming Languages"
                     secondary={
-                      <ul>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>Go</li>
-                        <li>Julia</li>
-                        <li>SQL</li>
-                        <li>Markdown</li>
-                        <li>LaTeX</li>
-                      </ul>
+                      <Typography variant="body2">
+                        <ul>
+                          <li>Python</li>
+                          <li>JavaScript</li>
+                          <li>TypeScript</li>
+                          <li>Go</li>
+                          <li>Julia</li>
+                          <li>SQL</li>
+                          <li>Markdown</li>
+                          <li>LaTeX</li>
+                        </ul>
+                      </Typography>
                     }
                   />
                 </ListItem>
@@ -167,17 +173,19 @@ export default function Home() {
                   <ListItemText
                     primary="Tools and frameworks"
                     secondary={
-                      <ul>
-                        <li>Git</li>
-                        <li>Unix</li>
-                        <li>React</li>
-                        <li>Next.js</li>
-                        <li>D3</li>
-                        <li>visx</li>
-                        <li>Pandas</li>
-                        <li>NumPy</li>
-                        <li>Django</li>
-                      </ul>
+                      <Typography variant="body2">
+                        <ul>
+                          <li>Git</li>
+                          <li>Unix</li>
+                          <li>React</li>
+                          <li>Next.js</li>
+                          <li>D3</li>
+                          <li>visx</li>
+                          <li>Pandas</li>
+                          <li>NumPy</li>
+                          <li>Django</li>
+                        </ul>
+                      </Typography>
                     }
                   />
                 </ListItem>
