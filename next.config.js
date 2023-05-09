@@ -1,3 +1,4 @@
+/** @type {import('next').NextConfig} */
 const isGithubActions = process.env.GITHUB_ACTIONS === "true";
 
 let assetPrefix = "";
@@ -10,6 +11,10 @@ if (isGithubActions) {
 }
 
 module.exports = {
+	output: "export",
+	images: {
+		unoptimized: true,
+	},
   assetPrefix,
   basePath,
 };
