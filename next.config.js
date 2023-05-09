@@ -10,6 +10,7 @@ if (isGithubActions) {
 }
 
 module.exports = {
+	output: "export",
   assetPrefix,
   basePath,
 };
