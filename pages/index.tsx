@@ -40,9 +40,14 @@ export default function Home() {
             </Typography>
           </Stack>
           <Stack>
-            <Typography variant="h6">Experience</Typography>
-            <List>
-              <ListItem>
+            <List subheader={<Typography variant="h6">Experience</Typography>}>
+              <ListItem
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
                 <ListItemText
                   primary="Software Engineer"
                   secondary="Velvet Financial Services, 2021 — Present"
@@ -69,9 +74,14 @@ export default function Home() {
             </List>
           </Stack>
           <Stack>
-            <Typography variant="h6">Education</Typography>
-            <List>
-              <ListItem>
+            <List subheader={<Typography variant="h6">Education</Typography>}>
+              <ListItem
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
                 <ListItemText
                   primary="B.S. Data Science"
                   secondary="University of Utah, 2019 — Present"
@@ -84,9 +94,6 @@ export default function Home() {
                     />
                   </ListItem>
                   <ListItem>
-                    <ListItemText primary="GPA: " secondary="3.5" />
-                  </ListItem>
-                  <ListItem>
                     <ListItemText
                       primary="Relevant coursework: "
                       secondary="Machine Learning, Artificial Intelligence, Data Mining, Visualization for Data Science, Database Systems, Software Development, Probability Theory, Applied Statistics, Linear Algebra"
@@ -97,9 +104,14 @@ export default function Home() {
             </List>
           </Stack>
           <Stack>
-            <Typography variant="h6">Skills</Typography>
-            <List>
-              <ListItem>
+            <List subheader={<Typography variant="h6">Skills</Typography>}>
+              <ListItem
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
                 <ListItemText primary="Programming Languages" />
                 <List>
                   <ListItem>
@@ -115,20 +127,35 @@ export default function Home() {
                     <ListItemText primary="Go" secondary="Intermediate" />
                   </ListItem>
                   <ListItem>
-                    <ListItemText primary="Julia" secondary="Beginner" />
-                  </ListItem>
-                  <ListItem>
                     <ListItemText primary="SQL" secondary="Intermediate" />
                   </ListItem>
                   <ListItem>
-                    <ListItemText primary="Markdown" secondary="Advanced" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="LaTeX" secondary="Advanced" />
+                    <ListItemText primary="Julia" secondary="Beginner" />
                   </ListItem>
                 </List>
               </ListItem>
-              <ListItem>
+              <ListItem
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
+                <ListItemText primary="Markup" />
+                <ListItem>
+                  <ListItemText primary="Markdown" secondary="Advanced" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="LaTeX" secondary="Advanced" />
+                </ListItem>
+              </ListItem>
+              <ListItem
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
                 <ListItemText primary="Tools" />
                 <List>
                   <ListItem>
@@ -139,7 +166,13 @@ export default function Home() {
                   </ListItem>
                 </List>
               </ListItem>
-              <ListItem>
+              <ListItem
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
+                }}
+              >
                 <ListItemText primary="Frameworks" />
                 <List>
                   <ListItem>
