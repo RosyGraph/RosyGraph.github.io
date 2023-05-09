@@ -70,33 +70,27 @@ export default function Home() {
             <List>
               <ListItem>
                 <ListItemText
-                  primary="Software Engineer, Velvet Financial Services, 2021 — Present"
-                  secondary={
-                    <Typography variant="body2">
-                      <ul>
-                        <li>
-                          Developed the initial version of the web applications
-                          as part of a small team of engineers, resulting in a
-                          base of over 500 active users
-                        </li>
-                        <li>
-                          Led the development of integrations with third-party
-                          services to facilitate on-platform KYB and investment
-                          processes
-                        </li>
-                        <li>
-                          Trained new employees on the company's React and
-                          Django development stack
-                        </li>
-                        <li>
-                          Currently involved in creating solutions to private
-                          finance issues by utilizing novel machine learning
-                          methods in Python
-                        </li>
-                      </ul>
-                    </Typography>
-                  }
+                  primary="Software Engineer"
+                  secondary="Velvet Financial Services, 2021 — Present"
                 />
+                <List>
+                  <ListItem>
+                    <ListItemText
+                      primary="Developed the initial version of the web applications
+                          as part of a small team of engineers, resulting in a
+                          base of over 500 active users"
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Led the development of integrations with third-party services to facilitate on-platform KYB and investment processes" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Trained new employees on the company's React and Django development stack" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Currently involved in creating solutions to private finance issues by utilizing novel machine learning methods in Python" />
+                  </ListItem>
+                </List>
               </ListItem>
             </List>
           </Stack>
@@ -105,92 +99,99 @@ export default function Home() {
             <List>
               <ListItem>
                 <ListItemText
-                  primary="B.S. Data Science, University of Utah, 2019 — Present"
-                  secondary={
-                    <Typography variant="body2">
-                      <ul>
-                        <li>Expected graduation: December 2023</li>
-                        <li>Relevant coursework: </li>
-                        <ul>
-                          <li>Machine Learning</li>
-                          <li>Artificial Intelligence</li>
-                          <li>Data Mining</li>
-                          <li>Visualization for Data Science</li>
-                          <li>Database Systems</li>
-                          <li>Software Development</li>
-                          <li>Probability Theory</li>
-                          <li>Applied Statistics</li>
-                          <li>Linear Algebra</li>
-                          <li>Calculus</li>
-                        </ul>
-                      </ul>
-                    </Typography>
-                  }
+                  primary="B.S. Data Science"
+                  secondary="University of Utah, 2019 — Present"
                 />
+                <List>
+                  <ListItem>
+                    <ListItemText
+                      primary="Expected graduation: "
+                      secondary="December 2023"
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="GPA: " secondary="3.5" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
+                      primary="Relevant coursework: "
+                      secondary="Machine Learning, Artificial Intelligence, Data Mining, Visualization for Data Science, Database Systems, Software Development, Probability Theory, Applied Statistics, Linear Algebra"
+                    />
+                  </ListItem>
+                </List>
               </ListItem>
             </List>
           </Stack>
           <Stack>
             <Typography variant="h6">Skills</Typography>
-            <Stack
-              direction="row"
-              spacing={2}
-              sx={{
-                width: "100%",
-              }}
-            >
-              <List
-                sx={{
-                  width: "50%",
-                }}
-              >
-                <ListItem>
-                  <ListItemText
-                    primary="Programming Languages"
-                    secondary={
-                      <Typography variant="body2">
-                        <ul>
-                          <li>Python</li>
-                          <li>JavaScript</li>
-                          <li>TypeScript</li>
-                          <li>Go</li>
-                          <li>Julia</li>
-                          <li>SQL</li>
-                          <li>Markdown</li>
-                          <li>LaTeX</li>
-                        </ul>
-                      </Typography>
-                    }
-                  />
-                </ListItem>
-              </List>
-              <List
-                sx={{
-                  width: "50%",
-                }}
-              >
-                <ListItem>
-                  <ListItemText
-                    primary="Tools and frameworks"
-                    secondary={
-                      <Typography variant="body2">
-                        <ul>
-                          <li>Git</li>
-                          <li>Unix</li>
-                          <li>React</li>
-                          <li>Next.js</li>
-                          <li>D3</li>
-                          <li>visx</li>
-                          <li>Pandas</li>
-                          <li>NumPy</li>
-                          <li>Django</li>
-                        </ul>
-                      </Typography>
-                    }
-                  />
-                </ListItem>
-              </List>
-            </Stack>
+            <List>
+              <ListItem>
+                <ListItemText primary="Programming Languages" />
+                <List>
+                  <ListItem>
+                    <ListItemText primary="Python" secondary="Advanced" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
+                      primary="JavaScript/TypeScript"
+                      secondary="Proficient"
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Go" secondary="Intermediate" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Julia" secondary="Beginner" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="SQL" secondary="Intermediate" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Markdown" secondary="Advanced" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="LaTeX" secondary="Advanced" />
+                  </ListItem>
+                </List>
+              </ListItem>
+              <ListItem>
+                <ListItemText primary="Tools" />
+                <List>
+                  <ListItem>
+                    <ListItemText primary="Git" secondary="Advanced" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Unix" secondary="Advanced" />
+                  </ListItem>
+                </List>
+              </ListItem>
+              <ListItem>
+                <ListItemText primary="Frameworks" />
+                <List>
+                  <ListItem>
+                    <ListItemText primary="React" secondary="Proficient" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Next.js" secondary="Proficient" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="D3" secondary="Proficient" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="visx" secondary="Proficient" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Pandas" secondary="Proficient" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="NumPy" secondary="Proficient" />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText primary="Django" secondary="Proficient" />
+                  </ListItem>
+                </List>
+              </ListItem>
+            </List>
           </Stack>
         </Stack>
       </Box>
