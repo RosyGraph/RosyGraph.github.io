@@ -1,6 +1,7 @@
 "use client";
 import DiscordMark from "@/components/discord-mark";
 import GitHubMark from "@/components/github-mark";
+import Section from "@/components/section";
 import {
   BottomNavigation,
   Box,
@@ -29,7 +30,9 @@ export default function Home() {
         <Stack spacing={2}>
           <Typography variant="h1">Chris Stevenson</Typography>
           <Stack spacing={1}>
-            <Typography variant="h6">Welcome to my website!</Typography>
+            <Typography variant="body2" fontWeight="bold">
+              <i>The best way to predict the future is to create it.</i>
+            </Typography>
             <Typography variant="body1">
               I aim to further my technical knowledge and experience by actively
               seeking projects which create value by leveraging data. I am
@@ -40,7 +43,7 @@ export default function Home() {
             </Typography>
           </Stack>
           <Stack>
-            <List subheader={<Typography variant="h6">Experience</Typography>}>
+            <Section title="Experience">
               <ListItem
                 sx={{
                   display: "flex",
@@ -71,135 +74,131 @@ export default function Home() {
                   </ListItem>
                 </List>
               </ListItem>
-            </List>
+            </Section>
           </Stack>
-          <Stack>
-            <List subheader={<Typography variant="h6">Education</Typography>}>
-              <ListItem
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                }}
-              >
-                <ListItemText
-                  primary="B.S. Data Science"
-                  secondary="University of Utah, 2019 — Present"
-                />
-                <List>
-                  <ListItem>
-                    <ListItemText
-                      primary="Expected graduation: "
-                      secondary="December 2023"
-                    />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText
-                      primary="Relevant coursework: "
-                      secondary="Machine Learning, Artificial Intelligence, Data Mining, Visualization for Data Science, Database Systems, Software Development, Probability Theory, Applied Statistics, Linear Algebra"
-                    />
-                  </ListItem>
-                </List>
-              </ListItem>
-            </List>
-          </Stack>
-          <Stack>
-            <List subheader={<Typography variant="h6">Skills</Typography>}>
-              <ListItem
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                }}
-              >
-                <ListItemText primary="Programming Languages" />
-                <List>
-                  <ListItem>
-                    <ListItemText primary="Python" secondary="Advanced" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText
-                      primary="JavaScript/TypeScript"
-                      secondary="Proficient"
-                    />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Go" secondary="Intermediate" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="SQL" secondary="Intermediate" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Julia" secondary="Beginner" />
-                  </ListItem>
-                </List>
-              </ListItem>
-              <ListItem
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                }}
-              >
-                <ListItemText primary="Markup" />
+          <Section title="Education">
+            <ListItem
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+              }}
+            >
+              <ListItemText
+                primary="B.S. Data Science"
+                secondary="University of Utah, 2019 — Present"
+              />
+              <List>
                 <ListItem>
-                  <ListItemText primary="Markdown" secondary="Advanced" />
+                  <ListItemText
+                    primary="Expected graduation: "
+                    secondary="December 2023"
+                  />
                 </ListItem>
                 <ListItem>
-                  <ListItemText primary="LaTeX" secondary="Advanced" />
+                  <ListItemText
+                    primary="Relevant coursework: "
+                    secondary="Machine Learning, Artificial Intelligence, Data Mining, Visualization for Data Science, Database Systems, Software Development, Probability Theory, Applied Statistics, Linear Algebra"
+                  />
                 </ListItem>
+              </List>
+            </ListItem>
+          </Section>
+          <Section title="Skills">
+            <ListItem
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+              }}
+            >
+              <ListItemText primary="Programming Languages" />
+              <List>
+                <ListItem>
+                  <ListItemText primary="Python" secondary="Advanced" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText
+                    primary="JavaScript/TypeScript"
+                    secondary="Proficient"
+                  />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="Go" secondary="Intermediate" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="SQL" secondary="Intermediate" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="Julia" secondary="Beginner" />
+                </ListItem>
+              </List>
+            </ListItem>
+            <ListItem
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+              }}
+            >
+              <ListItemText primary="Markup" />
+              <ListItem>
+                <ListItemText primary="Markdown" secondary="Advanced" />
               </ListItem>
-              <ListItem
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                }}
-              >
-                <ListItemText primary="Tools" />
-                <List>
-                  <ListItem>
-                    <ListItemText primary="Git" secondary="Advanced" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Unix" secondary="Advanced" />
-                  </ListItem>
-                </List>
+              <ListItem>
+                <ListItemText primary="LaTeX" secondary="Advanced" />
               </ListItem>
-              <ListItem
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                }}
-              >
-                <ListItemText primary="Frameworks" />
-                <List>
-                  <ListItem>
-                    <ListItemText primary="React" secondary="Proficient" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Next.js" secondary="Proficient" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="D3" secondary="Proficient" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="visx" secondary="Proficient" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Pandas" secondary="Proficient" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="NumPy" secondary="Proficient" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Django" secondary="Proficient" />
-                  </ListItem>
-                </List>
-              </ListItem>
-            </List>
-          </Stack>
+            </ListItem>
+            <ListItem
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+              }}
+            >
+              <ListItemText primary="Tools" />
+              <List>
+                <ListItem>
+                  <ListItemText primary="Git" secondary="Advanced" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="Unix" secondary="Advanced" />
+                </ListItem>
+              </List>
+            </ListItem>
+            <ListItem
+              sx={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-start",
+              }}
+            >
+              <ListItemText primary="Frameworks" />
+              <List>
+                <ListItem>
+                  <ListItemText primary="React" secondary="Proficient" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="Next.js" secondary="Proficient" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="D3" secondary="Proficient" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="visx" secondary="Proficient" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="Pandas" secondary="Proficient" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="NumPy" secondary="Proficient" />
+                </ListItem>
+                <ListItem>
+                  <ListItemText primary="Django" secondary="Proficient" />
+                </ListItem>
+              </List>
+            </ListItem>
+          </Section>
         </Stack>
       </Box>
       <BottomNavigation
