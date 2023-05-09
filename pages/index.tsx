@@ -1,42 +1,16 @@
 "use client";
+import DiscordMark from "@/components/discord-mark";
+import GitHubMark from "@/components/github-mark";
 import {
   BottomNavigation,
   Box,
   Container,
-  Link,
   List,
   ListItem,
   ListItemText,
   Stack,
   Typography,
 } from "@mui/material";
-import Image from "next/image";
-
-function GitHubMark() {
-  return (
-    <Link href="https://github.com/RosyGraph">
-      <Image
-        src="/github-mark/github-mark.png"
-        alt="Github Mark"
-        width={32}
-        height={32}
-      />
-    </Link>
-  );
-}
-
-function DiscordMark() {
-  return (
-    <Link href="https://discordapp.com/users/RosyGraph#1240">
-      <Image
-        src="/discord-mark-black.png"
-        alt="Discord Mark"
-        width={32}
-        height={24}
-      />
-    </Link>
-  );
-}
 
 export default function Home() {
   return (
