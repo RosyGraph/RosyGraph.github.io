@@ -1,6 +1,8 @@
 {
   "name": "rosygraph.github.io",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "author": "RosyGraph",
+  "description": "RosyGraph's personal website",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,7 +17,6 @@
     "@fontsource/roboto-mono": "^4.5.10",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.3",
-    "@next/font": "^13.4.1",
     "@types/node": "20.1.1",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",

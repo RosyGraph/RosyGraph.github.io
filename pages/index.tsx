@@ -16,7 +16,7 @@ import {
 export default function Home() {
   return (
     <Container
-      maxWidth="sm"
+      maxWidth="xs"
       sx={{
         display: "flex",
         flexDirection: "column",
@@ -28,7 +28,7 @@ export default function Home() {
     >
       <Box paddingBottom={4}>
         <Stack spacing={2}>
-          <Typography variant="h1">Chris Stevenson</Typography>
+          <Typography variant="h3">Chris Stevenson</Typography>
           <Stack spacing={1}>
             <Typography variant="body2" fontWeight="bold">
               <i>The best way to predict the future is to create it.</i>
@@ -208,12 +208,23 @@ export default function Home() {
           alignItems: "flex-end",
           justifyContent: "flex-end",
           gap: 2,
-          height: 32,
+          height: 48,
           width: "100%",
         }}
       >
-        <GitHubMark />
-        <DiscordMark />
+        <Stack
+          direction="row"
+          spacing={2}
+          marginRight={2}
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "flex-end",
+          }}
+        >
+          <GitHubMark />
+          <DiscordMark />
+        </Stack>
       </BottomNavigation>
     </Container>
   );
