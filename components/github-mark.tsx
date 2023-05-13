@@ -28,7 +28,7 @@ export default function GitHubMark() {
           cursor: "pointer",
         }}
       >
-        <GitHubMarkSVG fill={theme.palette.primary.contrastText} />
+        <GitHubMarkSVG fill={theme.palette.text.primary} />
       </Box>
     </Link>
   );

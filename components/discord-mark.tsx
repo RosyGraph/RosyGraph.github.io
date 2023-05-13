@@ -28,7 +28,7 @@ export default function DiscordMark() {
           cursor: "pointer",
         }}
       >
-        <DiscordMarkSVG fill={theme.palette.primary.contrastText} />
+        <DiscordMarkSVG fill={theme.palette.text.primary} />
       </Box>
     </Link>
   );
