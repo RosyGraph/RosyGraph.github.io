@@ -12,6 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource/roboto-mono": "^5.2.8",
     "astro": "^6.2.2"
   },
   "devDependencies": {

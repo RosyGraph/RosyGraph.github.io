@@ -1,0 +1,116 @@
+:root {
+  --bg: #ffffff;
+  --fg: #111111;
+  --muted: #666666;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111111;
+    --fg: #eeeeee;
+    --muted: #aaaaaa;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family:
+    "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.hero {
+  min-height: 100svh;
+  max-width: 76ch;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0;
+  line-height: 1.35;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  margin: 0 0 0.35rem;
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+section,
+.hero {
+  max-width: 76ch;
+  margin: 0 auto;
+  padding-left: clamp(1.5rem, 6vw, 5rem);
+  padding-right: clamp(1.5rem, 6vw, 5rem);
+}
+
+main {
+  padding-bottom: 6rem;
+}
+
+article + article {
+  margin-top: 2.5rem;
+}
+
+hr {
+  border: 0;
+  margin: 4rem 0;
+  text-align: center;
+}
+
+hr::before {
+  content: "*   *   *";
+  color: var(--muted);
+  letter-spacing: 0.35em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.meta,
+.links {
+  margin: -0.35rem 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.links a {
+  color: var(--muted);
+  text-decoration-color: color-mix(in srgb, var(--muted) 65%, transparent);
+}
+
+.links span {
+  margin: 0 0.35rem;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.18em;
+}
