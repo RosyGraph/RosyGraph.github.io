@@ -17,6 +17,7 @@
 }
 
 html {
+  color-scheme: light dark;
   font-family:
     "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   background: var(--bg);
@@ -114,3 +115,4 @@ a {
   color: inherit;
   text-underline-offset: 0.18em;
 }
+
