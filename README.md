@@ -1,1 +1,1 @@
-Code for my personal website built using Astro
+Code for my personal website built using vanilla HTML/CSS.
