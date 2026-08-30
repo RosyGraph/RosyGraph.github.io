@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rosygraph - blog</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <main>
+    <section class="hero" id="top">
+      <h1>Blog</h1>
+      <nav aria-label="Page navigation">
+        <a href="#chrimbus">chrimbus</a>
+        <a href="/">home</a>
+      </nav>
+    </section>
+
+    <section id="chrimbus">
+      <h2>reinventing chrimbus</h2>
+
+      <article>
+        <h3>reminiscing v0</h3>
+        <p class="meta">29-aug-2026</p>
+        <p class="links">
+          <a href="https://github.com/RosyGraph/chrimbus/tree/v0">v0 on github</a>
+        </p>
+        <p>
+          Every year, I ask my friends and coworkers to write patterns to run on the LEDs that light my window from November through January.
+        This system, coined chrimbus, was inspired by <a href="https://www.youtube.com/watch?v=TvlpIojusBE">this Matt Parker YouTube video</a>.
+        The original version of the project used the same stuff as Parker:
+        <ul>
+          <li>
+            Raspberry Pi
+          </li>
+          <li>
+            WS2811 programmable LEDs
+          </li>
+          <li>
+            Holiday cheer
+          </li>
+          <li>
+            Python scripts interacting directly with the Pi's GPIO
+          </li>
+        </ul>
+        </p>
+
+        <p>
+          These systems and their interactions proved educational to me.
+          Setting up v0 helped me better understand GPIO, geometry, voltage, systemd, and documentation.
+          I didn't really understand the scripts behind the patterns Parker's subscribers submitted, but the basic concept seemed straightforward.
+        </p>
+        <p>
+          With a decent-ish Python API, writing patterns was not too difficult.
+          However, the caller was in control of timing mechanisms and was exposed to the underlying GPIO interface, if only slightly.
+          This caused a few problems.
+        </p>
+        <p>
+          <b>The visualizer.</b>
+          One of my very smart colleagues immediately saw the need for a local visualization method.
+          Before this, the project was impossible to develop locally unless the contributor was willing to set up their own LEDs (maybe one day).
+        </p>
+        <p>
+          The visualizer operated by mocking the GPIO interface in ways I do not fully understand.
+          Later, another very smart colleague improved performance and added hot reloading.
+          However, even after upgrades, it suffered performance issues and occasional freezes.
+        </p>
+        <p>
+          <b>Authoring patterns via pull requests.</b>
+          Light patterns had to go through a PR approval process.
+          This was annoying for both myself and the contributor.
+        </p>
+        <p>
+          <b>Python only.</b>
+          Even worse, development was limited to 3.7 to support the Pi's system Python which had access to the pins.
+          What if you want to write your pattern in Typescript? Java? C? VBA?
+        </p>
+        <p>
+          This year, I plan to solve these problems.
+        </p>
+      </article>
+    </section>
+
+    <hr />
+
+    <section id="contact">
+      <p>
+      <a href="/">home</a>
+      ·
+      <a href="#top">top</a>
+      </p>
+    </section>
+  </main>
+</html>
